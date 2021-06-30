@@ -14,7 +14,8 @@ class Config(object):
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 
     # Bot User Name With Out @
-    BOT_USERNAME = os.environ.get("HTTP_PROXY", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
