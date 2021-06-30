@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import Config
-from Config Import BOT_USERNAME
+from Config import BOT_USERNAME
 
 class Translation(object):
 
