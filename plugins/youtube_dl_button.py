@@ -242,7 +242,7 @@ async def youtube_dl_call_back(bot, update):
                     duration=duration,
                     # performer=response_json["uploader"],
                     # title=response_json["title"],
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/Mo_Tech_YT')]]),
                     thumb=thumb_image_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
