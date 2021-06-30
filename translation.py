@@ -1,11 +1,13 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from config import Config as C
+BOT_USERNAME = C.BOT_USERNAME
 
 class Translation(object):
 
     START_TEXT = """
 Hello {} , I'am a url to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @FayasNoushad
+Made by @Mo_Tech_YT
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -20,22 +22,24 @@ Made by @FayasNoushad
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by @FayasNoushad
+Made by @Mo_Tech_YT
 """
-    ABOUT_TEXT = """
-- **Bot :** `URL Uploader`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+    ABOUT_TEXT = f"""
+- **Bot :** [URL Uploader](t.me/{BOT_USERNAME})
+- **Creator :** [Mrk](https://telegram.dog/Mrk_YT)
+- **Channel :** [MoTech](https://telegram.dog/Mo_Tech_YT)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/FayasNoushad/URL-Uploader)
+- **Source :** [Click here](https://github.com/MRK-YT/MT-URL-Uploader)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
+- **Tutorial :** [Video](https://heroku.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
+        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/KrpqqNNLUSU')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -44,6 +48,10 @@ Made by @FayasNoushad
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
+        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/KrpqqNNLUSU')
+        ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('About', callback_data='about'),
         InlineKeyboardButton('Close', callback_data='close')
@@ -51,6 +59,10 @@ Made by @FayasNoushad
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
+        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/KrpqqNNLUSU')
+        ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('Close', callback_data='close')
@@ -68,7 +80,7 @@ URL | newfilename | username | password"""
     UPLOAD_START = "<code>Uploading into Telegram...</code>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
-    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @FayasNoushad"
+    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @Mo_Tech_YT"
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     REPORT_SITE_TEXT = "<code>Sorry not uploading in this site here because this site is reporting site.</code>"
