@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import Config
+from Config import Config
 from Config import BOT_USERNAME
 
 class Translation(object):
