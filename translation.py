@@ -1,6 +1,4 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from Config import Config
-from Config import BOT_USERNAME
 
 class Translation(object):
 
@@ -24,8 +22,8 @@ Made by @Mo_Tech_YT
 
 Made by @Mo_Tech_YT
 """
-    ABOUT_TEXT = f"""
-- **Bot :** [URL Uploader](t.me/{BOT_USERNAME})
+    ABOUT_TEXT = """
+- **Bot :** URL Uploader
 - **Creator :** [Mrk](https://telegram.dog/Mrk_YT)
 - **Channel :** [MoTech](https://telegram.dog/Mo_Tech_YT)
 - **Credits :** `Everyone in this journey`
