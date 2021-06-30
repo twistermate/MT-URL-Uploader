@@ -1,7 +1,5 @@
 # URL-Uploader
 
-https://github.com/MRK-YT//edit/main/README.md
-
 A simple url uploader bot with permenent thumbnail support
 
 </p>
@@ -19,6 +17,8 @@ A simple url uploader bot with permenent thumbnail support
 ```
 Scrapped some code from @SpEcHIDe's AnyDLBot Repository
 Made with Python3
+
+Thanks To Fayas 
 ```
 
 ## Deploy 
@@ -41,8 +41,8 @@ python3 bot.py
 
 ## Variables
 
-* `API_HASH` Your API Hash from my.telegram.org as MT_MyTelegramOrg_Bot
-* `API_ID` Your API ID from my.telegram.org
+* `API_HASH` Your API Hash from my.telegram.org as @MT_MyTelegramOrg_Bot
+* `API_ID` Your API ID from my.telegram.org as @MT_MyTelegramOrg_Bot
 * `BOT_TOKEN` Your bot token from @BotFather
 * `AUTH_USERS` Allow only pre-defined users to use this bot
 * `TIME_LIMIT` For time to next process in second 
