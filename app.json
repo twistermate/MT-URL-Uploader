@@ -12,7 +12,7 @@
   "repository": "https://github.com/MRK-YT/MT-URL-Uploader",
   "env": {
     "WEBHOOK": {
-      "description": "Leave this as it is!",
+      "description": "Leave this as it is! ANYTHING",
       "value": "ANYTHING"
     },
     "BOT_TOKEN": {
@@ -29,7 +29,7 @@
     },
     "TIME_LIMIT": {
       "description": "Set timeout for subprocess (In seconds)",
-      "value": "0"
+      "value": ""
     }
   },
   "addons": [
