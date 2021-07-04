@@ -31,13 +31,13 @@ Made by @Mo_Tech_YT
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
-- **Tutorial :** [Video](https://heroku.com)
+- **Tutorial :** [Video](https://youtu.be/nRSbkf3memQ)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
         InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/KrpqqNNLUSU')
+        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -48,7 +48,7 @@ Made by @Mo_Tech_YT
         [[
         InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
         InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/KrpqqNNLUSU')
+        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -59,7 +59,7 @@ Made by @Mo_Tech_YT
         [[
         InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
         InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/KrpqqNNLUSU')
+        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
