@@ -35,9 +35,9 @@ Made by @Makerwith
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
-        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Movie_loverz_group'),
+        InlineKeyboardButton('🤖Channel', url='https://t.me/joinchat/lif2CVadKEYxOGQ1'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -46,9 +46,9 @@ Made by @Makerwith
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
-        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Movie_loverz_group'),
+        InlineKeyboardButton('🤖Channel', url='https://t.me/joinchat/lif2CVadKEYxOGQ1'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -57,9 +57,9 @@ Made by @Makerwith
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
-        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
+        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Movie_loverz_group'),
+        InlineKeyboardButton('🤖Channel', url='https://t.me/joinchat/lif2CVadKEYxOGQ1'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
