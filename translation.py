@@ -31,7 +31,7 @@ Made by @Makerwith
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
-- **Tutorial :** [Video](https://youtu.be/nRSbkf3memQ)
+
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
