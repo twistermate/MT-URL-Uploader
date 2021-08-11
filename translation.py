@@ -25,7 +25,7 @@ Made by @Makerwith
     ABOUT_TEXT = """
 - **Bot :** URL Uploader
 - **Creator :** [Irfan](https://t.me/Makerwith)
-- **Channel :** [Closechapters](https://telegram.dog/Mo_Tech_YT)
+- **Channel :** [Closechapters](https://t.me/closechapters2_0)
 - **Credits :** `Everyone in this journey`
 - **Source :** [Click here](https://github.com/MRK-YT/MT-URL-Uploader)
 - **Language :** [Python3](https://python.org)
