@@ -27,7 +27,7 @@ Made by @Makerwith
 - **Creator :** [Irfan](https://t.me/Makerwith)
 - **Channel :** [Closechapters](https://t.me/closechapters2_0)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/MRK-YT/MT-URL-Uploader)
+- **Source :** [Click here](https://t.me/joinchat/eZk8OSmHwR5jYTJl)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
