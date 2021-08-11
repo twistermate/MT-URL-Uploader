@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 Hello {} , I'am a url to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @Mo_Tech_YT
+Made by @Makerwith
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -20,12 +20,12 @@ Made by @Mo_Tech_YT
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by @Mo_Tech_YT
+Made by @Makerwith
 """
     ABOUT_TEXT = """
 - **Bot :** URL Uploader
-- **Creator :** [Mrk](https://telegram.dog/Mrk_YT)
-- **Channel :** [MoTech](https://telegram.dog/Mo_Tech_YT)
+- **Creator :** [Irfan](https://t.me/Makerwith)
+- **Channel :** [Closechapters](https://telegram.dog/Mo_Tech_YT)
 - **Credits :** `Everyone in this journey`
 - **Source :** [Click here](https://github.com/MRK-YT/MT-URL-Uploader)
 - **Language :** [Python3](https://python.org)
